@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryan Wiratama"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-01 01:13:01 AM"/>
+        <attribute name="created" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMS0wMTsxMjo0Nzo0OSBBTTszNTI5"/>
+        <attribute name="edited" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMS0wMTswMToxMzowMSBBTTs0OzM2MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, l, k" type="Real" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="p" expression="3.14"/>
+            <output expression="&quot;Menghitung Luas dan Keliling Lingkaran&quot;" newline="True"/>
+            <output expression="&quot;Masukan nilai jari-jari&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="l" expression="p*r*r"/>
+            <assign variable="k" expression="2*p*r"/>
+            <output expression="&quot;Hasil Luas = &quot;" newline="False"/>
+            <output expression="l" newline="True"/>
+            <output expression="&quot;Hasil Keliling = &quot;" newline="False"/>
+            <output expression="k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
