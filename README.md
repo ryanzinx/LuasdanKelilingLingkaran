@@ -1,5 +1,6 @@
-# LuasdanKelilingLingkaran
-
+# Luas dan Keliling Lingkaran
+## Source Code
+```python
 print("Program Menghitung Luas dan Keliling Lingkaran")
 r = int(input("Masukan Jari - Jari = "))
 
@@ -9,4 +10,7 @@ kel = 2*phi*r
 
 print("Luas Lingkaran adalah        = ", luas)
 print("Keliling Lingkaran adalah    = ", kel)
+```
+## ScreenShot
+![ss](luasdankelilinglingkaran - Main.png)
 
