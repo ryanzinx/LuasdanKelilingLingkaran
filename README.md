@@ -12,5 +12,5 @@ print("Luas Lingkaran adalah        = ", luas)
 print("Keliling Lingkaran adalah    = ", kel)
 ```
 ## ScreenShot
-![ss](luasdankelilinglingkaran - Main.png)
+![Gambar 1](luasdankelilinglingkaran - Main.png)
 
